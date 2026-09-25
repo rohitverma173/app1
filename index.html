@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Hesha's Kitchen — homemade cakes, cookies, and sweet little moments." />
+    <title>Hesha's Kitchen | Homemade with heart</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Hesha's Kitchen home">
+        <span class="brand-mark">H</span>
+        <span>Hesha's <em>Kitchen</em></span>
+      </a>
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="#menu">Our menu</a>
+        <a href="#story">Our story</a>
+        <a href="#order">Contact</a>
+      </nav>
+      <a class="header-order" href="#order">Order a treat <span>↗</span></a>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow"><span></span> Small batch · Big love</p>
+          <h1>Made at home.<br /><i>Made for you.</i></h1>
+          <p class="hero-text">Handcrafted cakes and cookies, baked from our kitchen to make your everyday moments feel a little more special.</p>
+          <div class="hero-actions">
+            <a class="button button-dark" href="#menu">Explore the menu <span>→</span></a>
+            <a class="text-link" href="#story">Meet Hesha <span>↗</span></a>
+          </div>
+          <div class="hero-note"><span class="note-icon">✦</span><span>Freshly baked to order<br /><strong>in our home kitchen</strong></span></div>
+        </div>
+        <div class="hero-art" aria-label="A freshly baked cake with strawberries">
+          <div class="sun-shape"></div>
+          <div class="cake-illustration">
+            <div class="berry berry-one">●</div><div class="berry berry-two">●</div><div class="berry berry-three">●</div>
+            <div class="cake-top"><span>✦</span><span>♡</span><span>✦</span></div>
+            <div class="cake-cream"></div><div class="cake-body"></div><div class="cake-base"></div>
+          </div>
+          <span class="art-caption">Baked with the<br /><i>good stuff</i> <b>♡</b></span>
+        </div>
+      </section>
+
+      <section class="mini-banner"><p>From our oven</p><span>✦</span><p>to your table</p><span>✦</span><p>with all our heart</p></section>
+
+      <section class="menu-section" id="menu">
+        <div class="section-heading"><div><p class="eyebrow"><span></span> The good stuff</p><h2>Something sweet<br /><i>for every mood.</i></h2></div><a class="text-link" href="#order">View all treats <span>↗</span></a></div>
+        <div class="product-grid">
+          <article class="product-card product-pink"><div class="product-image cake-image"><span class="badge">Best seller</span><div class="mini-cake"><b>H</b></div></div><div class="product-info"><div><h3>Strawberry dream cake</h3><p>Vanilla sponge · Fresh berries</p></div><strong>$38</strong></div></article>
+          <article class="product-card product-yellow"><div class="product-image cookie-image"><div class="cookie cookie-a"></div><div class="cookie cookie-b"></div><div class="cookie cookie-c"></div><div class="cookie cookie-d"></div></div><div class="product-info"><div><h3>Choc-chip cookie box</h3><p>Six gooey, golden cookies</p></div><strong>$16</strong></div></article>
+          <article class="product-card product-blue"><div class="product-image loaf-image"><span class="sprinkle">✦</span><div class="loaf"><i></i><i></i><i></i></div></div><div class="product-info"><div><h3>Lemon blueberry loaf</h3><p>Bright, zesty · Feeds 8</p></div><strong>$24</strong></div></article>
+        </div>
+      </section>
+
+      <section class="story-section" id="story">
+        <div class="story-art"><div class="portrait-shape"><div class="portrait-face"></div><div class="portrait-hair"></div><div class="portrait-apron">H</div></div><span class="story-sticker">Baked<br />with love<br /><b>♡</b></span></div>
+        <div class="story-copy"><p class="eyebrow"><span></span> A little about us</p><h2>Hi, I'm Hesha.<br /><i>Welcome to my kitchen.</i></h2><p>What started as baking for friends has grown into a little home bakery full of butter, sugar, and a whole lot of joy. Every treat is mixed, baked, and packed by hand.</p><a class="button button-outline" href="#order">Read our story <span>→</span></a></div>
+      </section>
+
+      <section class="order-section" id="order"><div class="order-copy"><p class="eyebrow"><span></span> Let's make it special</p><h2>Have a sweet<br /><i>idea in mind?</i></h2><p>Tell us what you're celebrating and we'll bake something lovely for it.</p><div class="contact-detail"><span>✉</span><a href="mailto:hello@heshaskitchen.com">hello@heshaskitchen.com</a></div></div><form class="order-form" id="order-form"><label>Your name<input required type="text" placeholder="Your name" /></label><label>What are you craving?<select required><option value="">Choose a treat</option><option>Custom cake</option><option>Cookie box</option><option>Something else</option></select></label><label>Tell us a little more<textarea rows="3" placeholder="Date, flavours, servings..."></textarea></label><button class="button button-dark" type="submit">Send an enquiry <span>→</span></button><p class="form-message" aria-live="polite"></p></form></section>
+    </main>
+    <footer><a class="brand" href="#top"><span class="brand-mark">H</span><span>Hesha's <em>Kitchen</em></span></a><p>Homemade treats for happy hearts.</p><span>© 2024 Hesha's Kitchen</span></footer>
+    <script src="script.js"></script>
+  </body>
+</html>
